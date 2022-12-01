@@ -1,0 +1,14 @@
+'use client';
+import { useState } from "react";
+import { TypingText, ExploreCard, TitleText } from "../components";
+import { motion } from "framer-motion";
+import styles from '../styles'
+import { textVariants, fadeIn, staggerContainer, textVariant } from '../utils/motion'
+
+const Explore = () => (
+  <section>
+    Explore section
+  </section>
+);
+
+export default Explore;
